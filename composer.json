@@ -1,0 +1,28 @@
+{
+    "name": "goramax/demo-app",
+    "description": "Noctalys Demo Application",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DemoApp\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../NoctalysFramework",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require": {
+        "goramax/noctalys-framework": "*",
+        "twig/twig": "^3.20",
+        "latte/latte": "^3.0",
+        "smarty/smarty": "^5.4"
+    }
+}

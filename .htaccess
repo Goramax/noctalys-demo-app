@@ -1,0 +1,31 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteBase /
+    RewriteRule ^(?!public/)(.*)$ /public/index.php [L,QSA]
+    # Allow direct access to files in the public directory
+    RewriteCond %{REQUEST_URI} !^/public/
+    
+    # Allow direct access to existing files and directories
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    
+    # Route all other requests to index.php inside the public directory
+    RewriteRule ^ /public/index.php [L]
+    
+    
+</IfModule>
+
+<IfModule mod_dir.c>
+    DirectoryIndex public/index.php
+</IfModule>
+
+# Set proper MIME types
+<IfModule mod_mime.c>
+    AddType text/css .css
+    AddType text/javascript .js
+    AddType image/svg+xml .svg
+    AddType image/png .png
+    AddType image/jpeg .jpg .jpeg
+    AddType image/gif .gif
+</IfModule>

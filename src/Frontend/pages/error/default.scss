@@ -1,0 +1,104 @@
+& {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.error-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 600px;
+    padding: 2rem;
+    position: relative;
+
+    .error-content {
+        z-index: 2;
+        position: relative;
+
+        .error-code {
+            font-size: 6rem;
+            font-weight: 900;
+            line-height: 1;
+            margin-bottom: 1rem;
+
+            @media (max-width: 768px) {
+                font-size: 4rem;
+            }
+        }
+
+        .error-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--text-color);
+            margin-bottom: 1rem;
+            line-height: 1.2;
+
+            @media (max-width: 768px) {
+                font-size: 2rem;
+            }
+        }
+
+        .error-message {
+            font-size: 1.2rem;
+            color: #aaa;
+            margin-bottom: 2.5rem;
+            line-height: 1.6;
+            max-width: 400px;
+
+            @media (max-width: 768px) {
+                font-size: 1rem;
+            }
+        }
+
+        .error-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+
+    .error-illustration {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        pointer-events: none;
+
+        .floating-elements .element {
+            animation: float 8s ease-in-out infinite;
+
+            &.element-1 {
+                width: 70px;
+                height: 70px;
+                top: 25%;
+                left: 15%;
+                animation-delay: 0s;
+            }
+
+            &.element-2 {
+                width: 50px;
+                height: 50px;
+                top: 65%;
+                right: 20%;
+                animation-delay: 3s;
+            }
+
+            &.element-3 {
+                width: 90px;
+                height: 90px;
+                bottom: 25%;
+                left: 25%;
+                animation-delay: 6s;
+            }
+        }
+    }
+}
