@@ -1,16 +1,12 @@
-<?php
-$type = $type ?? 'primary';
-$href = $href ?? null;
-$text = $text ?? 'Button';
-$classes = "btn btn-{$type}";
-
-if (isset($class)) {
-    $classes .= " {$class}";
-}
-?>
-
-<?php if ($href): ?>
-    <a href="<?= $href ?>" class="<?= $classes ?>"><?= $text ?></a>
+<?php if ($href ?? null): ?>
+    <a href="<?= $href ?>"
+        class="btn btn-<?= $type ?? 'primary' ?><?= isset($class) ? ' ' . $class : '' ?>"
+        <?= ($blank ?? false) ? ' target="_blank" rel="noopener noreferrer"' : '' ?>>
+        <?= $text ?? 'Button' ?>
+    </a>
 <?php else: ?>
-    <button type="<?= $buttonType ?? 'button' ?>" class="<?= $classes ?>"><?= $text ?></button>
+    <button type="<?= $buttonType ?? 'button' ?>"
+        class="btn btn-<?= $type ?? 'primary' ?><?= isset($class) ? ' ' . $class : '' ?>">
+        <?= $text ?? 'Button' ?>
+    </button>
 <?php endif; ?>

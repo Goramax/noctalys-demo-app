@@ -1,7 +1,7 @@
 <?php
-use Goramax\NoctalysFramework\Hooks;
+use Goramax\NoctalysFramework\Services\Hooks;
 
 
-// Hooks::add("before_layout", function() {
-//     echo "<h2>Before layout hook example</h2>";
+// Hooks::add("before_view", function() {
+//     echo "<h2>Before view hook example</h2>";
 // });

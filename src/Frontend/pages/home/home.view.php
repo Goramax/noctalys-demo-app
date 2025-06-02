@@ -7,8 +7,9 @@
         <p class="subtitle"><?= $subText ?></p>
         <?= render_component('button', [
             'text' => 'Get Started',
-            'href' => '/get-started',
-            'type' => 'primary'
+            'href' => 'https://noctalys.org/docs',
+            'type' => 'primary',
+            'blank' => true,
         ]) ?>
     </div>
     

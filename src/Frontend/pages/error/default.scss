@@ -8,18 +8,11 @@
 }
 
 .error-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    @extend .page-container;
     max-width: 600px;
-    padding: 2rem;
-    position: relative;
 
     .error-content {
-        z-index: 2;
-        position: relative;
+        @extend .content-wrapper;
 
         .error-code {
             font-size: 6rem;
@@ -33,11 +26,8 @@
         }
 
         .error-title {
+            @extend .page-title;
             font-size: 2.5rem;
-            font-weight: 700;
-            color: var(--text-color);
-            margin-bottom: 1rem;
-            line-height: 1.2;
 
             @media (max-width: 768px) {
                 font-size: 2rem;
@@ -45,15 +35,10 @@
         }
 
         .error-message {
-            font-size: 1.2rem;
+            @extend .page-subtitle;
             color: #aaa;
             margin-bottom: 2.5rem;
-            line-height: 1.6;
             max-width: 400px;
-
-            @media (max-width: 768px) {
-                font-size: 1rem;
-            }
         }
 
         .error-actions {
@@ -65,13 +50,7 @@
     }
 
     .error-illustration {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 1;
-        pointer-events: none;
+        @extend .page-illustration;
 
         .floating-elements .element {
             animation: float 8s ease-in-out infinite;

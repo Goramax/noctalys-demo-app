@@ -16,6 +16,7 @@
 }
 
 .blog-card {
+    @extend .card;
     border: 1px solid #ccc;
     padding: 16px;
     margin: 16px 0;

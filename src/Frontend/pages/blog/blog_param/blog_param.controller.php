@@ -1,9 +1,9 @@
 <?php
 
-use Goramax\NoctalysFramework\View;
-use Goramax\NoctalysFramework\Router;
-use Goramax\NoctalysFramework\Validator;
-use Goramax\NoctalysFramework\File;
+use Goramax\NoctalysFramework\View\View;
+use Goramax\NoctalysFramework\Routing\Router;
+use Goramax\NoctalysFramework\Security\Validator;
+use Goramax\NoctalysFramework\Services\File;
 
 /**
  * About page controller

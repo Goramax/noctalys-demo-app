@@ -1,5 +1,5 @@
 {
-    "name": "goramax/demo-app",
+    "name": "noctalys/demo-app",
     "description": "Noctalys Demo Application",
     "type": "project",
     "license": "MIT",
@@ -20,9 +20,11 @@
         }
     ],
     "require": {
-        "goramax/noctalys-framework": "*",
-        "twig/twig": "^3.20",
-        "latte/latte": "^3.0",
-        "smarty/smarty": "^5.4"
+        "noctalys/framework": "^0.1.0"
+    },
+    "suggest": {
+        "twig/twig": "Required to use Twig templates",
+        "smarty/smarty": "Required to use Smarty templates",
+        "latte/latte": "Required to use Latte templates"
     }
 }

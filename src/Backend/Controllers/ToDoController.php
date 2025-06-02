@@ -4,9 +4,9 @@ namespace DemoApp\Backend\Controllers;
 
 use DemoApp\Backend\Services\ToDoService;
 use DemoApp\Backend\Models\ToDoModel;
-use Goramax\NoctalysFramework\Api\Response;
+use Goramax\NoctalysFramework\Http\Response;
 use Goramax\NoctalysFramework\Attributes\Route;
-use Goramax\NoctalysFramework\Validator;
+use Goramax\NoctalysFramework\Security\Validator;
 
 class ToDoController
 {

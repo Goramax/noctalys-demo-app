@@ -1,6 +1,6 @@
 <?php
 
-use Goramax\NoctalysFramework\View;
+use Goramax\NoctalysFramework\View\View;
 
 class ErrorController
 {
