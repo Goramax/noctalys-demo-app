@@ -1,7 +1,7 @@
 <?php
 
-use Goramax\NoctalysFramework\View\View;
-use Goramax\NoctalysFramework\Services\File;
+use Noctalys\Framework\View\View;
+use Noctalys\Framework\Services\File;
 
 /**
  * About page controller

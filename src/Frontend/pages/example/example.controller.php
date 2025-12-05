@@ -1,7 +1,7 @@
 <?php
 
-use Goramax\NoctalysFramework\View\View;
-use Goramax\NoctalysFramework\Security\Validator;
+use Noctalys\Framework\View\View;
+use Noctalys\Framework\Security\Validator;
 
 /**
  * About page controller

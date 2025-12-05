@@ -10,17 +10,8 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../NoctalysFramework",
-            "options": {
-                "symlink": true
-            }
-        }
-    ],
     "require": {
-        "noctalys/framework": "^0.1.0"
+        "noctalys/framework": ">=0.1.1"
     },
     "suggest": {
         "twig/twig": "Required to use Twig templates",

@@ -1,5 +1,5 @@
 <?php
-use Goramax\NoctalysFramework\Services\Hooks;
+use Noctalys\Framework\Services\Hooks;
 
 
 // Hooks::add("before_view", function() {

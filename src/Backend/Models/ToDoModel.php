@@ -1,8 +1,8 @@
 <?php
 
 namespace DemoApp\Backend\Models;
-use Goramax\NoctalysFramework\Services\File;
-use Goramax\NoctalysFramework\Abstract\Model;
+use Noctalys\Framework\Services\File;
+use Noctalys\Framework\Abstract\Model;
 
 class ToDoModel extends Model
 {

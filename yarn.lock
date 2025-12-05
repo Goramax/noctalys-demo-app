@@ -7,15 +7,15 @@
   resolved "https://registry.npmjs.org/@esbuild/aix-ppc64/-/aix-ppc64-0.25.5.tgz"
   integrity sha512-9o3TMmpmftaCMepOdA5k/yDw8SfInyzWWTjYTFCX3kPSDJMROQTb8jg+h9Cnwnmm1vOzvxN7gIfB5V2ewpjtGA==
 
-"@esbuild/android-arm@0.25.5":
-  version "0.25.5"
-  resolved "https://registry.npmjs.org/@esbuild/android-arm/-/android-arm-0.25.5.tgz"
-  integrity sha512-AdJKSPeEHgi7/ZhuIPtcQKr5RQdo6OO2IL87JkianiMYMPbCtot9fxPbrMiBADOWWm3T2si9stAiVsGbTQFkbA==
-
 "@esbuild/android-arm64@0.25.5":
   version "0.25.5"
   resolved "https://registry.npmjs.org/@esbuild/android-arm64/-/android-arm64-0.25.5.tgz"
   integrity sha512-VGzGhj4lJO+TVGV1v8ntCZWJktV7SGCs3Pn1GRWI1SBFtRALoomm8k5E9Pmwg3HOAal2VDc2F9+PM/rEY6oIDg==
+
+"@esbuild/android-arm@0.25.5":
+  version "0.25.5"
+  resolved "https://registry.npmjs.org/@esbuild/android-arm/-/android-arm-0.25.5.tgz"
+  integrity sha512-AdJKSPeEHgi7/ZhuIPtcQKr5RQdo6OO2IL87JkianiMYMPbCtot9fxPbrMiBADOWWm3T2si9stAiVsGbTQFkbA==
 
 "@esbuild/android-x64@0.25.5":
   version "0.25.5"
@@ -42,15 +42,15 @@
   resolved "https://registry.npmjs.org/@esbuild/freebsd-x64/-/freebsd-x64-0.25.5.tgz"
   integrity sha512-PrikaNjiXdR2laW6OIjlbeuCPrPaAl0IwPIaRv+SMV8CiM8i2LqVUHFC1+8eORgWyY7yhQY+2U2fA55mBzReaw==
 
-"@esbuild/linux-arm@0.25.5":
-  version "0.25.5"
-  resolved "https://registry.npmjs.org/@esbuild/linux-arm/-/linux-arm-0.25.5.tgz"
-  integrity sha512-cPzojwW2okgh7ZlRpcBEtsX7WBuqbLrNXqLU89GxWbNt6uIg78ET82qifUy3W6OVww6ZWobWub5oqZOVtwolfw==
-
 "@esbuild/linux-arm64@0.25.5":
   version "0.25.5"
   resolved "https://registry.npmjs.org/@esbuild/linux-arm64/-/linux-arm64-0.25.5.tgz"
   integrity sha512-Z9kfb1v6ZlGbWj8EJk9T6czVEjjq2ntSYLY2cw6pAZl4oKtfgQuS4HOq41M/BcoLPzrUbNd+R4BXFyH//nHxVg==
+
+"@esbuild/linux-arm@0.25.5":
+  version "0.25.5"
+  resolved "https://registry.npmjs.org/@esbuild/linux-arm/-/linux-arm-0.25.5.tgz"
+  integrity sha512-cPzojwW2okgh7ZlRpcBEtsX7WBuqbLrNXqLU89GxWbNt6uIg78ET82qifUy3W6OVww6ZWobWub5oqZOVtwolfw==
 
 "@esbuild/linux-ia32@0.25.5":
   version "0.25.5"
@@ -540,7 +540,7 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.3.1:
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
-"picomatch@^3 || ^4", picomatch@^4.0.2:
+picomatch@^4.0.2:
   version "4.0.2"
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-4.0.2.tgz"
   integrity sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==
@@ -595,7 +595,7 @@ rollup@^4.34.9:
     "@rollup/rollup-win32-x64-msvc" "4.41.1"
     fsevents "~2.3.2"
 
-sass@*, sass@^1.89.0:
+sass@^1.89.0:
   version "1.89.0"
   resolved "https://registry.npmjs.org/sass/-/sass-1.89.0.tgz"
   integrity sha512-ld+kQU8YTdGNjOLfRWBzewJpU5cwEv/h5yyqlSeJcj6Yh8U4TDA9UA5FPicqDz/xgRPWRSYIQNiFks21TbA9KQ==
@@ -606,7 +606,7 @@ sass@*, sass@^1.89.0:
   optionalDependencies:
     "@parcel/watcher" "^2.4.1"
 
-source-map-js@^1.2.1, "source-map-js@>=0.6.2 <2.0.0":
+"source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.2.1:
   version "1.2.1"
   resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz"
   integrity sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==
@@ -657,7 +657,7 @@ vite-plugin-live-reload@^3.0.4:
     chokidar "^3.6.0"
     picocolors "^1.1.1"
 
-"vite@^4.0.0 || ^5.0.0 || ^6.0.0", vite@^6.3.5:
+vite@^6.3.5:
   version "6.3.5"
   resolved "https://registry.npmjs.org/vite/-/vite-6.3.5.tgz"
   integrity sha512-cZn6NDFE7wdTpINgs++ZJ4N49W2vRp8LCKrn3Ob1kYNtOo21vfDoaV5GzBfLU4MovSAB8uNRm4jgzVQZ+mBzPQ==
