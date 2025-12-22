@@ -1,0 +1,1 @@
+console.log('This is a script loaded only on the home page.');

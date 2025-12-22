@@ -11,7 +11,7 @@ class HomeController
     {
         $data = [
             'title' => 'Noctalys Demo App',
-            'message' => 'Welwome to noctalys demo app!',
+            'message' => 'Welcome to noctalys demo app!',
             'mainText' => 'Noctalys',
             'subText' => 'A modern and lightweight PHP framework',
         ];

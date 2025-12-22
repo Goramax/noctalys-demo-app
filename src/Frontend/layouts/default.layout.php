@@ -6,6 +6,9 @@
     <title><?= $title ?? 'Noctalys Demo App' ?></title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?= css_path('main') ?>">
+    <?= page_css() ?>
+    <script src="<?= js_path('main') ?>" defer></script>
+    <?= page_js() ?>
 </head>
 
 <body>

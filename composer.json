@@ -11,7 +11,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "noctalys/framework": ">=0.1.1"
+        "noctalys/framework": ">=0.1.2"
     },
     "suggest": {
         "twig/twig": "Required to use Twig templates",

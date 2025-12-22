@@ -1,0 +1,1 @@
+console.log("This is a global script loaded on all pages.");

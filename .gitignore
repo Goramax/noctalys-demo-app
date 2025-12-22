@@ -7,5 +7,6 @@
 .pnp.*
 node_modules
 vendor
-cache
+cache/*
+!cache/.gitkeep
 .env*

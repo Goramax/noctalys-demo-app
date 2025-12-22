@@ -58,6 +58,6 @@
             }
         ],
         "styles" : ["main.scss"],
-        "scripts" : []
+        "scripts" : ["main.js"]
     }
 }
