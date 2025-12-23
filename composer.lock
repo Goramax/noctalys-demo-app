@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "03864849a27cca4462e652d06bb975ee",
+    "content-hash": "c329a43781ca42de6d6aa1ea647a2aee",
     "packages": [
         {
             "name": "noctalys/framework",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Goramax/Noctalys.git",
-                "reference": "9147b962de30233657b6fc2e9551dd62249a4e28"
+                "reference": "ca46c319654ab076e1ebe4e1728bf74a768f823b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Goramax/Noctalys/zipball/9147b962de30233657b6fc2e9551dd62249a4e28",
-                "reference": "9147b962de30233657b6fc2e9551dd62249a4e28",
+                "url": "https://api.github.com/repos/Goramax/Noctalys/zipball/ca46c319654ab076e1ebe4e1728bf74a768f823b",
+                "reference": "ca46c319654ab076e1ebe4e1728bf74a768f823b",
                 "shasum": ""
             },
             "require": {
@@ -54,9 +54,9 @@
             "description": "A modern and lightweight PHP framework",
             "support": {
                 "issues": "https://github.com/Goramax/Noctalys/issues",
-                "source": "https://github.com/Goramax/Noctalys/tree/0.1.1"
+                "source": "https://github.com/Goramax/Noctalys/tree/0.1.2"
             },
-            "time": "2025-12-05T12:15:17+00:00"
+            "time": "2025-12-22T21:20:15+00:00"
         }
     ],
     "packages-dev": [],
@@ -67,5 +67,5 @@
     "prefer-lowest": false,
     "platform": {},
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
